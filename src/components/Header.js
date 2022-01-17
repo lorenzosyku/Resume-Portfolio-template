@@ -1,9 +1,22 @@
-function Header() {
+function Header({data}) {
+  if (data) {
+    var name = data.name;
+    var occupation = data.occupation;
+    var description = data.description;
+    var city = data.address.city;
+    var networks = data.social.map(function (network) {
+      return (
+        <li key={network.name}>
+          <a href={network.url}>
+            <i className={network.className}></i>
+          </a>
+        </li>
+      );
+    });
+  }
   return (
     <div>
-      <h1>i am the header</h1>
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit impedit eos ipsa culpa perspiciatis corrupti accusantium voluptatibus fugiat, tenetur repudiandae blanditiis, nostrum necessitatibus aliquid doloremque corporis reiciendis amet itaque aspernatur!
-      </h2>
+      
     </div>
   )
 }
