@@ -1,18 +1,18 @@
 {
   "main": {
-    "name": "Lorenzo Syku",
+    "name": "John Doe",
     "occupation": "Software Developer",
-    "description": "I love React and Blockchain technology, and I'm very interested in WEB3.0  ",
+    "description": "I love React and Blockchain technology, and I'm very interested in WEB3.0",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Lorenzo! I've been coding for over 7 months now. I started coding after a friend told me about it. Along the journey I realised my passion for problem-solving. With this passion, I coded my first app, which is a tip calculator that we could use at work so every busboy, food-runner and waiter would know immidiately how much they made that night. 4 months ago I joined the Papafam community, led by Sonny and Jay, and after working with their materials I feel confident enough to lunch my own website, where  I will display all the coming projects! Stay tuned WEB 3.0 is coming!",
+    "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit impedit eos ipsa culpa perspiciatis corrupti accusantium voluptatibus fugiat, tenetur repudiandae blanditiis, nostrum necessitatibus aliquid doloremque corporis reiciendis amet itaque aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit impedit eos ipsa culpa perspiciatis corrupti accusantium voluptatibus fugiat, tenetur repudiandae blanditiis, nostrum necessitatibus aliquid doloremque corporis reiciendis amet itaque aspernatur!",
     "contactmessage": "Get in touch with me!",
-    "email": "xhaxhilenzi@gmail.com",
-    "phone": "",
+    "email": "fakemail@gmail.com",
+    "phone": "123-456-789",
     "address": {
-      "street": "",
-      "city": "New York",
-      "state": "",
-      "zip": ""
+      "street": "stonks street",
+      "city": "White Plains",
+      "state": "New York",
+      "zip": "12345"
     },
     "website": "https://www.papareact.com/course",
     "resumedownload": "",
@@ -33,28 +33,28 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "",
-        "degree": "",
-        "graduated": "",
-        "description": ""
+        "school": "Voluptatibus Fugiat University",
+        "degree": "Computer Science",
+        "graduated": "2021",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit impedit eos ipsa culpa perspiciatis corrupti accusantium voluptatibus fugiat, tenetur repudiandae blanditiis, nostrum necessitatibus aliquid doloremque corporis reiciendis amet itaque aspernatur!"
       }
     ],
     "work": [
       {
-        "company": "Freelacing Software Development",
+        "company": "Software Development Company",
         "title": "Software Developer",
-        "years": "May 2021 - Present",
+        "years": "May 2022 - Present",
         "description": "I like improving my skills by working on clones of popular apps and then implementing what I learned into my own projects. I have experience working with fetching and manipulating data from endpoints and rendering it on the screen with a pleasing UI, with the power of REACTJS, NEXTJS and Tailwindcss."
       }
     ],
     "skills": [
       {
         "name": "Git",
-        "level": "45%"
+        "level": "85%"
       },
       {
         "name": "ReactJs",
-        "level": "50%"
+        "level": "80%"
       },
       {
         "name": "html",
@@ -62,7 +62,7 @@
       },
       {
         "name": "JavaScript",
-        "level": "80%"
+        "level": "90%"
       },
       {
         "name": "css",
@@ -70,15 +70,15 @@
       },
       {
         "name": "NextJs",
-        "level":"50%"
+        "level":"70%"
       },
       {
         "name" :"tailwindcss",
-        "level":"30%"
+        "level":"60%"
       },
       {
-        "name":"moralis",
-        "level":"25%"
+        "name":"redux",
+        "level":"85%"
       }
     ]
   },
@@ -113,16 +113,16 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Lorenzo is very professional when it comes to work and very easy to work with. He always tries to give his best!",
-        "user": "Engjell Nilaj"
+        "text": "Perspiciatis corrupti accusantium voluptatibus fugiat, tenetur repudiandae blanditiis!",
+        "user": "Guxhi Muxhi"
       },
       {
-        "text": "I know him for 5 years now. He is reliable, driven and trustworthy. I can honestly say that he would be my first pick if I ever needed someone to make me a website/app",
-        "user": "Ramiro Lopez"
+        "text": "Nmostrum necessitatibus aliquid doloremque corporis reiciendis amet itaque aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit impedit eos ipsa culpa perspiciatis.",
+        "user": "Filip Morri"
       },
       {
-        "text": "Hardworking man! He will always go the extra mile and is a great team player!",
-        "user": "Sander Gjoni"
+        "text": "Necessitatibus aliquid doloremque corporis reiciendisnostrum necessitatibus aliquid doloremque corporis reiciendis amet itaque aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit impedit eos ipsa culpa perspiciatis",
+        "user": "Filan Fisteku"
       }
     ]
   }
