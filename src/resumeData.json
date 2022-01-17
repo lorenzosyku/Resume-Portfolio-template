@@ -1,0 +1,129 @@
+{
+  "main": {
+    "name": "Lorenzo Syku",
+    "occupation": "Software Developer",
+    "description": "I love React and Blockchain technology, and I'm very interested in WEB3.0  ",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Lorenzo! I've been coding for over 7 months now. I started coding after a friend told me about it. Along the journey I realised my passion for problem-solving. With this passion, I coded my first app, which is a tip calculator that we could use at work so every busboy, food-runner and waiter would know immidiately how much they made that night. 4 months ago I joined the Papafam community, led by Sonny and Jay, and after working with their materials I feel confident enough to lunch my own website, where  I will display all the coming projects! Stay tuned WEB 3.0 is coming!",
+    "contactmessage": "Get in touch with me!",
+    "email": "xhaxhilenzi@gmail.com",
+    "phone": "",
+    "address": {
+      "street": "",
+      "city": "New York",
+      "state": "",
+      "zip": ""
+    },
+    "website": "https://www.papareact.com/course",
+    "resumedownload": "",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/lorenzosyku",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/lorenzosyku",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "",
+        "degree": "",
+        "graduated": "",
+        "description": ""
+      }
+    ],
+    "work": [
+      {
+        "company": "Freelacing Software Development",
+        "title": "Software Developer",
+        "years": "May 2021 - Present",
+        "description": "I like improving my skills by working on clones of popular apps and then implementing what I learned into my own projects. I have experience working with fetching and manipulating data from endpoints and rendering it on the screen with a pleasing UI, with the power of REACTJS, NEXTJS and Tailwindcss."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "45%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "html",
+        "level": "75%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "80%"
+      },
+      {
+        "name": "css",
+        "level": "70%"
+      },
+      {
+        "name": "NextJs",
+        "level":"50%"
+      },
+      {
+        "name" :"tailwindcss",
+        "level":"30%"
+      },
+      {
+        "name":"moralis",
+        "level":"25%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Tips Calculator (JS, HTML, CSS)",
+        "category": "",
+        "image": "guxhi.jpg",
+        "url": "https://www.guxhi.com/"
+      },
+      {
+        "title": "Todo List (REACT JS)",
+        "category": "",
+        "image": "todo.jpg",
+        "url": "https://lorenzosyku.github.io/todolist/"
+      },
+      {
+        "title": "Airbnb Clone (React JS)",
+        "category": "",
+        "image": "airbnb.jpg",
+        "url": "https://airbnb-frontend-clone-pi.vercel.app/"
+      },
+      {
+        "title": "Stock Search (React JS)",
+        "category": "",
+        "image": "Stonks.jpg",
+        "url": "https://github.com/lorenzosyku/stockmarket-datachart"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Lorenzo is very professional when it comes to work and very easy to work with. He always tries to give his best!",
+        "user": "Engjell Nilaj"
+      },
+      {
+        "text": "I know him for 5 years now. He is reliable, driven and trustworthy. I can honestly say that he would be my first pick if I ever needed someone to make me a website/app",
+        "user": "Ramiro Lopez"
+      },
+      {
+        "text": "Hardworking man! He will always go the extra mile and is a great team player!",
+        "user": "Sander Gjoni"
+      }
+    ]
+  }
+}
