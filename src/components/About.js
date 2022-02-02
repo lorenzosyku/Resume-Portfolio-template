@@ -14,10 +14,46 @@ function About({data}) {
   }
 
   return (
-    <div>
-      <p>{name}</p>
-    </div>
-  )
-}
+    <section id="about">
+      <div className="row">
+        <div className="three columns">
+          <img
+            className="profile-pic"
+            src={profilepic}
+            alt="Profile Pic"
+          />
+        </div>
+        <div>
+          <h2>About Me</h2>
+          <p className="">{bio}</p>
+          <div className="row">
+            <div className="columns contact-details">
+              <h2>Contact Details</h2>
+              <p className="address">
+                <span>{name}</span>
+                
+                <span>
+                  {street}
+                  <br />
+                  {city} {state} {zip}
+                </span>
+                <span>{phone}</span>
+                <br />
+                <span>{email}</span>
+              </p>
+            </div>
+            <div className="columns download">
+              <p>
+                <a href={resumeDownload} className="button">
+                  <i className="fa fa-download"></i>Download Resume
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-export default About
+export default About;
