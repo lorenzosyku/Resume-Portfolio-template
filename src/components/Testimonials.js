@@ -1,34 +1,35 @@
-import {useState} from 'react';
+import { useState } from "react";
 
-function Testimonials({data}) {
+function Testimonials({ data }) {
   //const [selectedId, setSelectedId] = useState(null)
   if (data) {
     var testimonials = data.testimonials.map(function (testimonials) {
       return (
-        <div>
-          <li key={testimonials.user} className="flexslider">
-          <blockquote className="slidese">
-            <p>{testimonials.text}</p>
-            <cite >{testimonials.user}</cite>
-          </blockquote>
-         </li>
+        <div className="border shadow-sm shadow-cyan-500 rounded-lg m-5">
+          <li key={testimonials.user} className="p-5 ">
+            <blockquote className="">
+              <p className="italic">{testimonials.text}</p>
+              <cite className="font-bold mt-5">{testimonials.user}</cite>
+            </blockquote>
+          </li>
         </div>
-        
       );
     });
   }
 
   return (
-    <section id="testimonials">
-      <div className="text-container">
-        <div className="row">
-          <div className="two columns header-col">
-            <h1>
-              <span>Client Testimonials</span>
-            </h1>
-          </div>
-          <div className="ten columns flex-container">
-            <ul className="slides ">{testimonials}</ul>
+    <section
+      className="p-5 m-5"
+      id="testimonials"
+    >
+      <h1 className="font-bold">
+        <span>Client Testimonials</span>
+      </h1>
+      <div className="">
+        <div className="">
+          <div className=""></div>
+          <div className="">
+            <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">{testimonials}</ul>
           </div>
         </div>
       </div>
@@ -36,4 +37,4 @@ function Testimonials({data}) {
   );
 }
 
-export default Testimonials
+export default Testimonials;

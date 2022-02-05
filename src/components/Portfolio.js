@@ -26,11 +26,11 @@ function Portfolio({data}) {
   return (
     <section className="p-5 m-5 " id="portfolio">
       <h1 className="font-bold my-5">My Previous Works</h1>
-      <div className=" ">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 p-2 md:p-6">
+      <div className="">
+        <div className="">
           <div
             id="portfolio-wrapper"
-            className="border rounded-lg group cursor-pointer overflow-hidden"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 lg:gap-6 cursor-pointer overflow-hidden"
           >
             {projects}
           </div>

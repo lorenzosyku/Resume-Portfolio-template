@@ -13,15 +13,15 @@ function Footer({data}) {
 
   return (
     <footer>
-      <div className="row">
-        <div className="twelve columns">
+      <div className="grid grid-cols-1 place-content-center p-5 m-5">
+        <div className="">
           <ul className="social-links">{networks}</ul>
 
-          <ul className="copyright">
-            <li>
+          <div className="grid grid-cols-1 place-content-center">
+            <h3 className="">
               Made by{" Lorenzo Syku"}
-            </li>
-          </ul>
+            </h3>
+          </div>
         </div>
         <div id="go-top">
           <a className="smoothscroll" title="Back to Top" href="#home">
