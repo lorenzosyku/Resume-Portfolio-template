@@ -23,7 +23,7 @@ function App() {
   console.log(resumeData)
 
   return (
-    <div className="App">
+    <div className="">
       <Header data={resumeData.main} />
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />

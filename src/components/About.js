@@ -15,36 +15,36 @@ function About({data}) {
   }
 
   return (
-    <section id="about">
-      <div className="row">
+    <section className="block p-5 m-5" id="about">
+      <div className="flex space-x-8">
         <div className="three columns">
           <img
-            className="profile-pic"
+            className="hidden md:flex justify-items-start"
             src={profilepic}
             alt="Profile Pic"
           />
         </div>
-        <div>
-          <h2>About Me</h2>
+        <div className="space-y-5">
+          <h2 className="font-bold">About Me</h2>
           <p className="">{bio}</p>
           <div className="row">
             <div className="columns contact-details">
-              <h2>Contact Details</h2>
-              <p className="address">
+              <h2 className="font-bold mb-3">Contact Details</h2>
+              <p >
                 <span>{name}</span>
-                
                 <span>
                   {street}
                   <br />
                   {city} {state} {zip}
                 </span>
+                  <br />
                 <span>{phone}</span>
                 <br />
                 <span>{email}</span>
               </p>
             </div>
             <div className="columns download">
-              <p>
+              <p className="italic mt-2">
                 <a href={resumeDownload} className="button">
                   <i className="fa fa-download"></i>Download Resume
                 </a>

@@ -17,56 +17,49 @@ function Header({data}) {
     });
   }
   return (
-    <header id="home">
-      <nav id="nav-wrap">
-        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-          Show navigation
-        </a>
-        <a className="mobile-btn" href="#home" title="Hide navigation">
-          Hide navigation
-        </a>
-
-        <ul id="nav" className="nav">
+    <header className="m-5 p-5 space-y-5" id="home">
+      <nav className="hidden md:block" id="nav-wrap">
+        <ul id="nav" className="flex justify-center space-x-5 text-white ">
           <li className="current">
-            <a className="smoothscroll" href="#home">
+            <a className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600" href="#home">
               Home
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#about">
+            <a className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600" href="#about">
               About
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#resume">
+            <a className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600" href="#resume">
               Resume
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#portfolio">
+            <a className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600" href="#portfolio">
               Works
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#testimonials">
+            <a className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600" href="#testimonials">
               Testimonials
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#contact">
+            <a className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600" href="#contact">
               Contact
             </a>
           </li>
         </ul>
       </nav>
 
-      <div className="row banner">
+      <div className="flex justify-center">
         <div >
-          <div className="banner-text">
-            <h1 className="text-3xl font-bold underline">
+          <div className="p-5 max-w-5xl mx-auto shadow-lg">
+            <h1 className="text-3xl font-bold">
               <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
             </h1>
-            <h3>
+            <h3 className="italic p-3">
               Based in {city}. <span>{occupation}</span>. {description}.
             </h3>
             <hr />
@@ -79,11 +72,7 @@ function Header({data}) {
         
       </div>
 
-      <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
-          <i className="icon-down-circle"></i>
-        </a>
-      </p>
+      
     </header>
   );
 }

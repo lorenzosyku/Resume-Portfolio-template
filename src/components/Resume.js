@@ -40,42 +40,42 @@ function Resume({data}) {
   }
 
   return (
-    <section id="resume">
-      <div className="row education">
-        <div className="three columns header-col">
-          <h1>
+    <section className="block p-5 m-5 space-y-5" id="resume">
+      <div className="mt-5">
+        <div className="">
+          <h1 className="font-bold">
             <span>Education</span>
           </h1>
         </div>
 
-        <div className="nine columns main-col">
-          <div className="row item">
-            <div className="twelve columns">{education}</div>
+        <div className="">
+          <div className="">
+            <div className="p-5">{education}</div>
           </div>
         </div>
       </div>
-      <div className="row work">
-        <div className="three columns header-col">
-          <h1>
+      <div className="">
+        <div className="">
+          <h1 className="font-bold">
             <span>Work</span>
           </h1>
         </div>
 
-        <div className="nine columns main-col">{work}</div>
+        <div className="p-5">{work}</div>
       </div>
       
-      <div className="row skill">
-        <div className="three columns header-col">
-          <h1>
+      <div className="">
+        <div className="">
+          <h1 className="font-bold">
             <span>Skills</span>
           </h1>
         </div>
 
-        <div className="nine columns main-col">
+        <div className="p-5">
           <p>{skillmessage}</p>
 
-          <div className="bars">
-            <ul className="skills">{skills}</ul>
+          <div className="">
+            <ul className="">{skills}</ul>
           </div>
         </div>
       </div>
