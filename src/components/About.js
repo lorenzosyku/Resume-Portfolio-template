@@ -19,7 +19,7 @@ function About({data}) {
       <div className="flex space-x-8">
         <div className="three columns">
           <img
-            className="hidden md:flex justify-items-start"
+            className="hidden md:flex justify-items-start object-contain w-34 h-34 rounded-full "
             src={profilepic}
             alt="Profile Pic"
           />
@@ -32,6 +32,7 @@ function About({data}) {
               <h2 className="font-bold mb-3">Contact Details</h2>
               <p >
                 <span>{name}</span>
+                <br />
                 <span>
                   {street}
                   <br />

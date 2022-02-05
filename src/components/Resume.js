@@ -5,7 +5,7 @@ function Resume({data}) {
       return (
         <div key={education.school}>
           <h3>{education.school}</h3>
-          <p className="info">
+          <p className="mb-2">
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
           </p>
@@ -17,7 +17,7 @@ function Resume({data}) {
       return (
         <div key={work.company}>
           <h3>{work.company}</h3>
-          <p className="info">
+          <p className="mb-2">
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
