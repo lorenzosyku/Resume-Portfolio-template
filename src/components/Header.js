@@ -63,7 +63,7 @@ function Header({data}) {
       <div className="row banner">
         <div >
           <div className="banner-text">
-            <h1 className="responsive-headline">
+            <h1 className="text-3xl font-bold underline">
               <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
             </h1>
             <h3>
