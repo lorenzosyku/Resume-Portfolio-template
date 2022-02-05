@@ -2,6 +2,7 @@ function About({data}) {
 
   if (data) {
     var name = data.name;
+    console.log(name)
     var profilepic = "images/" + data.image;
     var bio = data.bio;
     var street = data.address.street;
