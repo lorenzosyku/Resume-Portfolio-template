@@ -17,7 +17,7 @@ function Header({data}) {
     });
   }
   return (
-    <header className="m-5 p-5 space-y-5" id="home">
+    <header className="p-5 space-y-5 bg-blue-marguerite-200" id="home">
       <nav className="hidden md:block" id="nav-wrap">
         <ul id="nav" className="flex justify-center space-x-5 text-white ">
           <li className="current">

@@ -1,4 +1,4 @@
-function Resume({data}) {
+function Resume({ data }) {
   if (data) {
     var skillmessage = data.skillmessage;
     var education = data.education.map(function (education) {
@@ -29,53 +29,54 @@ function Resume({data}) {
       var className = "bar-expand " + skills.name.toLowerCase();
       return (
         <div key={skills.name}>
-        <li >
-          <span style={{ width: skills.level }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
+          <li>
+            <span style={{ width: skills.level }} className={className}></span>
+            <em>{skills.name}</em>
+          </li>
         </div>
-        
       );
     });
   }
 
   return (
-    <section className="block p-5 m-5 space-y-5" id="resume">
-      <div className="mt-5">
-        <div className="">
-          <h1 className="font-bold">
-            <span>Education</span>
-          </h1>
-        </div>
-
-        <div className="">
+    <section className="block p-5 bg-blue-marguerite-150 space-y-5 my-10" id="resume">
+      <div className="max-w-6xl mx-auto">
+        <div className="mt-5">
           <div className="">
-            <div className="p-5">{education}</div>
+            <h1 className="font-bold">
+              <span>Education</span>
+            </h1>
+          </div>
+
+          <div className="">
+            <div className="">
+              <div className="p-5">{education}</div>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="">
         <div className="">
-          <h1 className="font-bold">
-            <span>Work</span>
-          </h1>
-        </div>
-
-        <div className="p-5">{work}</div>
-      </div>
-      
-      <div className="">
-        <div className="">
-          <h1 className="font-bold">
-            <span>Skills</span>
-          </h1>
-        </div>
-
-        <div className="p-5">
-          <p>{skillmessage}</p>
-
           <div className="">
-            <ul className="">{skills}</ul>
+            <h1 className="font-bold">
+              <span>Work</span>
+            </h1>
+          </div>
+
+          <div className="p-5">{work}</div>
+        </div>
+
+        <div className="">
+          <div className="">
+            <h1 className="font-bold">
+              <span>Skills</span>
+            </h1>
+          </div>
+
+          <div className="p-5">
+            <p>{skillmessage}</p>
+
+            <div className="">
+              <ul className="">{skills}</ul>
+            </div>
           </div>
         </div>
       </div>
@@ -83,4 +84,4 @@ function Resume({data}) {
   );
 }
 
-export default Resume
+export default Resume;

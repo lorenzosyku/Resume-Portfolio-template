@@ -1,4 +1,4 @@
-function Portfolio({data}) {
+function Portfolio({ data }) {
   if (data) {
     var projects = data.projects.map(function (projects) {
       var projectImage = "images/portfolio/" + projects.image;
@@ -6,7 +6,11 @@ function Portfolio({data}) {
         <div key={projects.title} className="">
           <div className="group">
             <a href={projects.url} title={projects.title}>
-              <img className="h-60 w-full object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out" alt={projects.title} src={projectImage} />
+              <img
+                className="h-60 w-full object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out rounded-lg"
+                alt={projects.title}
+                src={projectImage}
+              />
               <div className="py-3 pl-3">
                 <div className="portfolio-item-meta">
                   <h5>{projects.title}</h5>
@@ -24,15 +28,20 @@ function Portfolio({data}) {
   }
 
   return (
-    <section className="p-5 m-5 " id="portfolio">
-      <h1 className="font-bold my-5">My Previous Works</h1>
-      <div className="">
+    <section
+      className="p-5 bg-blue-marguerite-400"
+      id="portfolio"
+    >
+      <div className="max-w-6xl mx-auto ">
+        <h1 className="font-bold my-5">My Previous Works</h1>
         <div className="">
-          <div
-            id="portfolio-wrapper"
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 lg:gap-6 cursor-pointer overflow-hidden"
-          >
-            {projects}
+          <div className="">
+            <div
+              id="portfolio-wrapper"
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 lg:gap-6 cursor-pointer overflow-hidden"
+            >
+              {projects}
+            </div>
           </div>
         </div>
       </div>
@@ -40,4 +49,4 @@ function Portfolio({data}) {
   );
 }
 
-export default Portfolio
+export default Portfolio;

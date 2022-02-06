@@ -15,8 +15,8 @@ function About({data}) {
   }
 
   return (
-    <section className="block p-5 m-5" id="about">
-      <div className="flex space-x-8">
+    <section className="block p-5 bg-blue-marguerite-500 " id="about">
+      <div className="max-w-6xl mx-auto flex space-x-8 my-10">
         <div className="three columns">
           <img
             className="hidden md:flex justify-items-start object-contain w-34 h-34 rounded-full "

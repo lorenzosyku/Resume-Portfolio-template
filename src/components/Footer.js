@@ -17,7 +17,7 @@ function Footer({data}) {
         <div className="">
           <ul className="social-links">{networks}</ul>
 
-          <div className="grid grid-cols-1 place-content-center">
+          <div className="flex justify-center">
             <h3 className="">
               Made by{" Lorenzo Syku"}
             </h3>
