@@ -6,7 +6,7 @@
     "occupation": "Software Developer",
     "description": "I love React and Blockchain technology, and I'm very interested in WEB3.0",
     "image": "profilepic.jpg",
-    "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit impedit eos ipsa culpa perspiciatis corrupti accusantium voluptatibus fugiat, tenetur repudiandae blanditiis, nostrum necessitatibus aliquid doloremque corporis reiciendis amet itaque aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit impedit eos ipsa culpa perspiciatis corrupti accusantium voluptatibus fugiat, tenetur repudiandae blanditiis, nostrum necessitatibus aliquid doloremque corporis reiciendis amet itaque aspernatur!",
+    "bio": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit impedit eos ipsa culpa perspiciatis corrupti accusantium voluptatibus fugiat, tenetur repudiandae blanditiis, nostrum necessitatibus aliquid doloremque corporis reiciendis amet itaque aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing accusantium voluptatibus fugiat, tenetur repudiandae blanditiis, nostrum necessitatibus aliquid doloremque corporis reiciendis amet itaque aspernatur! Lorem ipsum dolor sit amet consectetur adipisicingelit. Sit impedit eos ipsa culpa perspiciatis corrupti accusantium voluptatibus fugiat, tenetur repudiandae blanditiis, nostrum necessitatibus aliquid doloremque corporis reiciendis amet itaque aspernatur!",
     "contactmessage": "Get in touch with me!",
     "email": "fakemail@gmail.com",
     "phone": "123-456-789",
@@ -52,35 +52,35 @@
     "skills": [
       {
         "name": "Git",
-        "level": "85%"
+        "level": "75"
       },
       {
         "name": "ReactJs",
-        "level": "80%"
+        "level": "85"
       },
       {
         "name": "html",
-        "level": "75%"
+        "level": "75"
       },
       {
         "name": "JavaScript",
-        "level": "90%"
+        "level": "90"
       },
       {
         "name": "css",
-        "level": "70%"
+        "level": "70"
       },
       {
         "name": "NextJs",
-        "level":"70%"
+        "level":"70"
       },
       {
         "name" :"tailwindcss",
-        "level":"60%"
+        "level":"60"
       },
       {
         "name":"redux",
-        "level":"85%"
+        "level":"85"
       }
     ]
   },

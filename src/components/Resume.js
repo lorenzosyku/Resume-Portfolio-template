@@ -1,3 +1,6 @@
+import ProgressBar from './ProgressBar';
+
+
 function Resume({ data }) {
   if (data) {
     var skillmessage = data.skillmessage;
@@ -30,8 +33,9 @@ function Resume({ data }) {
       return (
         <div key={skills.name}>
           <li>
-            <span style={{ width: skills.level }} className={className}></span>
+            {/*<span style={{ width: skills.level }} className={className}></span>*/}
             <em>{skills.name}</em>
+            <ProgressBar bgcolor={"#6a1b9a"} completed={skills.level} />
           </li>
         </div>
       );
