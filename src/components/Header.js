@@ -10,7 +10,7 @@ function Header({data}) {
       return (
         <li key={network.name}>
           <a href={network.url}>
-            <i className={network.className}></i>
+            <img className="h-6 w-6" src={network.source} alt="" />
           </a>
         </li>
       );
@@ -54,7 +54,7 @@ function Header({data}) {
       </nav>
 
       <div className="flex justify-center">
-        <div >
+        <div className="flex-col">
           <div className="p-5 max-w-5xl mx-auto shadow-lg">
             <h1 className="text-3xl font-bold">
               <TypeWriter typing={0.5}>{name ? `👋 I'm ${name}.` : null}</TypeWriter>
@@ -63,8 +63,8 @@ function Header({data}) {
               Based in {city}. <span>{occupation}</span>. {description}.
             </h3>
             <hr />
-            <div>
-              <ul className="social">{networks}</ul>
+            <div className="flex justify-center py-5">
+              <ul className="flex space-x-2">{networks}</ul>
             </div>
             
           </div>

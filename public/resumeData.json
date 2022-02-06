@@ -1,3 +1,5 @@
+
+
 {
   "main": {
     "name": "John Doe",
@@ -14,18 +16,18 @@
       "state": "New York",
       "zip": "12345"
     },
-    "website": "https://www.papareact.com/course",
+    "website": "",
     "resumedownload": "",
     "social": [
       {
-        "name": "linkedin",
+        "name": "Linkedin",
         "url": "https://www.linkedin.com/in/lorenzosyku",
-        "className": "fa fa-linkedin"
+        "source": "https://github.githubassets.com/images/modules/site/icons/footer/linkedin.svg"
       },
       {
-        "name": "github",
+        "name": "Github",
         "url": "https://github.com/lorenzosyku",
-        "className": "fa fa-github"
+        "source": "https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg"
       }
     ]
   },

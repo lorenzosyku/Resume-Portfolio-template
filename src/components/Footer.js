@@ -1,10 +1,11 @@
-function Footer({data}) {
+
+function Footer({ data }) {
   if (data) {
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
           <a href={network.url}>
-            <i className={network.className}></i>
+            <img className="h-6 w-6" src={network.source} alt="" />
           </a>
         </li>
       );
@@ -14,23 +15,19 @@ function Footer({data}) {
   return (
     <footer>
       <div className="grid grid-cols-1 place-content-center p-5 m-5">
-        <div className="">
-          <ul className="social-links">{networks}</ul>
-
-          <div className="flex justify-center">
-            <h3 className="">
-              Made by{" Lorenzo Syku"}
-            </h3>
+        <div className="flex justify-center">
+          <div className="flex-col space-y-3">
+            <div>
+              <h3 className="font-semibold">Made by{" Lorenzo Syku"}</h3>
+            </div>
+            <div className="flex justify-center">
+              <ul className="flex space-x-2">{networks}</ul>
+            </div>
           </div>
-        </div>
-        <div id="go-top">
-          <a className="smoothscroll" title="Back to Top" href="#home">
-            <i className="icon-up-open"></i>
-          </a>
         </div>
       </div>
     </footer>
   );
 }
 
-export default Footer
+export default Footer;
