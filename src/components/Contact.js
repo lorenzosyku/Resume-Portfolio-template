@@ -28,14 +28,14 @@ function Contact({ data }) {
   };
 
   return (
-    <section className="p-5 m-5" id="contact">
+    <section className="max-w-3xl mx-auto p-5 m-5" id="contact">
       <div className="mb-5">
         <div>
           <p className="font-bold">{contactMessage}</p>
         </div>
       </div>
 
-      <div className="sm:flex">
+      <div className="sm:flex flex-grow">
         <div>
           <form
             className="flex flex-col max-w-2xl mx-auto mb-10"
@@ -124,13 +124,19 @@ function Contact({ data }) {
 
         <div className="grid grid-cols-1 place-content-center">
           <div className="p-5">
-            <h4>Email Address</h4>
-            <p className="address">
-              {contactName}
+            <h4>Contact Me: </h4>
+            <p className="pt-3">
+              <span>{contactName}</span>
               <br />
-              {contactEmail}
+              <span>
+                {street}
+                <br />
+                {city} {state} {zip}
+              </span>
               <br />
-              {city}
+              <span>{phone}</span>
+              <br />
+              <span>{contactEmail}</span>
             </p>
           </div>
         </div>

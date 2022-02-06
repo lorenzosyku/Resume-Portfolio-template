@@ -57,7 +57,7 @@ function Header({data}) {
         <div >
           <div className="p-5 max-w-5xl mx-auto shadow-lg">
             <h1 className="text-3xl font-bold">
-              <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+              <TypeWriter typing={0.5}>{name ? `👋 I'm ${name}.` : null}</TypeWriter>
             </h1>
             <h3 className="italic p-3">
               Based in {city}. <span>{occupation}</span>. {description}.
