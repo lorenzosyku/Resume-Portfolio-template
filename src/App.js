@@ -7,7 +7,7 @@ import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
 import Portfolio from "./components/Portfolio";
-//import ProgressBar from "./components/ProgressBar"
+
 
 function App() {
 
