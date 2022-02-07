@@ -1,9 +1,7 @@
 import TypeWriter from "react-typewriter";
-import { VscMenu } from "react-icons/vsc";
-import { useState } from "react";
+import Dropmenu from "./Dropmenu";
 
 function Header({ data }) {
-  //const [open, setOpen] = useState(false);
 
   if (data) {
     var name = data.name;
@@ -23,9 +21,7 @@ function Header({ data }) {
   }
   return (
     <header className="p-5 space-y-5 bg-blue-marguerite-200" id="home">
-      <div className="flex justify-end ml-5 mt-5 md:hidden">
-        <VscMenu className="cursor-pointer" />
-      </div>
+      <Dropmenu />
       <nav className="hidden md:block" id="nav-wrap">
         <ul id="nav" className="flex justify-center space-x-5 text-white ">
           <li className="current">
