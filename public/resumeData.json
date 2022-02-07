@@ -51,35 +51,35 @@
     ],
     "skills": [
       {
-        "name": "Git",
+        "name": "GIT",
         "level": "75"
       },
       {
-        "name": "ReactJs",
+        "name": "REACT",
         "level": "85"
       },
       {
-        "name": "html",
+        "name": "HTML",
         "level": "75"
       },
       {
-        "name": "JavaScript",
+        "name": "JAVASCRIPT",
         "level": "90"
       },
       {
-        "name": "css",
+        "name": "CSS",
         "level": "70"
       },
       {
-        "name": "NextJs",
+        "name": "NEXTJS",
         "level":"70"
       },
       {
-        "name" :"tailwindcss",
+        "name" :"TAILWINDCSS",
         "level":"60"
       },
       {
-        "name":"redux",
+        "name":"REDUX",
         "level":"85"
       }
     ]

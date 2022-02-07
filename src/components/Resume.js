@@ -1,7 +1,7 @@
 import ProgressBar from './ProgressBar';
 
-
 function Resume({ data }) {
+  
   if (data) {
     var skillmessage = data.skillmessage;
     var education = data.education.map(function (education) {
@@ -29,11 +29,9 @@ function Resume({ data }) {
       );
     });
     var skills = data.skills.map(function (skills) {
-      var className = "bar-expand " + skills.name.toLowerCase();
       return (
         <div key={skills.name}>
           <li>
-            {/*<span style={{ width: skills.level }} className={className}></span>*/}
             <em>{skills.name}</em>
             <ProgressBar bgcolor={"#6a1b9a"} completed={skills.level} />
           </li>
@@ -75,11 +73,10 @@ function Resume({ data }) {
             </h1>
           </div>
 
-          <div className="p-5">
-            <p>{skillmessage}</p>
+          <div className="pt-5 italic">
 
             <div className="">
-              <ul className="">{skills}</ul>
+              <ul className="space-y-5">{skills}</ul>
             </div>
           </div>
         </div>
