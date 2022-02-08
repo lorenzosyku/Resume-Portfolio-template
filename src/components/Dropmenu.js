@@ -2,8 +2,6 @@ import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 
 function Dropmenu() {
-  //const [open, setOpen] = useState(false);
-
   return (
     <div>
       <div className="relative-group cursor-pointer absolute top-5 right-5 hover:opacity-75">
@@ -45,7 +43,7 @@ function Dropmenu() {
                     <Menu.Item>
                       {({ active }) => (
                         <a
-                          href="#"
+                          href="#home"
                           className={`flex items-center px-4 py-2 text-sm ${
                             active
                               ? "bg-indigo-500 text-white"
@@ -72,7 +70,7 @@ function Dropmenu() {
                     <Menu.Item>
                       {({ active }) => (
                         <a
-                          href="#"
+                          href="#about"
                           className={`flex items-center px-4 py-2 text-sm ${
                             active
                               ? "bg-indigo-500 text-white"
@@ -105,7 +103,7 @@ function Dropmenu() {
                     <Menu.Item>
                       {({ active }) => (
                         <a
-                          href="#"
+                          href="#resume"
                           className={`flex items-center px-4 py-2 text-sm ${
                             active
                               ? "bg-indigo-500 text-white"
@@ -138,7 +136,7 @@ function Dropmenu() {
                     <Menu.Item>
                       {({ active }) => (
                         <a
-                          href="#"
+                          href="#portfolio"
                           className={`flex items-center px-4 py-2 text-sm ${
                             active
                               ? "bg-indigo-500 text-white"
@@ -171,7 +169,7 @@ function Dropmenu() {
                     <Menu.Item>
                       {({ active }) => (
                         <a
-                          href="#"
+                          href="#testimonials"
                           className={`flex items-center px-4 py-2 text-sm ${
                             active
                               ? "bg-indigo-500 text-white"
@@ -204,7 +202,7 @@ function Dropmenu() {
                     <Menu.Item>
                       {({ active }) => (
                         <a
-                          href="#"
+                          href="#contact"
                           className={`flex items-center px-4 py-2 text-sm ${
                             active
                               ? "bg-indigo-500 text-white"
