@@ -24,7 +24,7 @@ function App() {
   console.log(resumeData)
 
   return (
-    <div className="bg-blue-marguerite-300">
+    <div className="bg-white">
       <Header data={resumeData.main} />
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />

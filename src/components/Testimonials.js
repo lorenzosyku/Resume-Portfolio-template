@@ -19,7 +19,7 @@ function Testimonials({ data }) {
 
   return (
     <section
-      className="p-5 m-5"
+      className="p-5 m-5 bg-carolina-blue-50"
       id="testimonials"
     >
       <h1 className="font-bold">

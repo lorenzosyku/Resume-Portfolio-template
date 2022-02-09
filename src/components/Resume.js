@@ -41,7 +41,7 @@ function Resume({ data }) {
   }
 
   return (
-    <section className="block p-5 bg-blue-marguerite-150 space-y-5 my-10" id="resume">
+    <section className="block p-5 bg-cg-blue-50 space-y-5 my-10" id="resume">
       <div className="max-w-6xl mx-auto">
         <div className="mt-5">
           <div className="">

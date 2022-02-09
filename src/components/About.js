@@ -15,7 +15,7 @@ function About({data}) {
   }
 
   return (
-    <section className="block p-5 bg-blue-marguerite-500 " id="about">
+    <section className="block p-5 bg-prussian-blue-50 text-gray-300" id="about">
       <div className="max-w-6xl mx-auto flex space-x-8 my-10">
         <div className="three columns">
           <img

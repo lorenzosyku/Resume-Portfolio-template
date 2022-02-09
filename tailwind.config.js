@@ -15,6 +15,18 @@ module.exports = {
           800: "#5f468d",
           900: "#4f3e71",
         },
+        "rich-black-fogra": {
+          50: "#00171f"
+        },
+        "prussian-blue": {
+          50: "#003459"
+        },
+        "cg-blue": {
+          50: "#007ea7"
+        },
+        "carolina-blue": {
+          50: "#00a8e8"
+        },
       },
     },
   },
