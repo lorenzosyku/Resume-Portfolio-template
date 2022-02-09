@@ -29,7 +29,7 @@ function Portfolio({ data }) {
 
   return (
     <section
-      className="p-5 bg-blue-marguerite-400"
+      className="p-5 bg-cyan-700 text-gray-200"
       id="portfolio"
     >
       <div className="max-w-6xl mx-auto ">

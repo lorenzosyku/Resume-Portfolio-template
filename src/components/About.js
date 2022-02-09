@@ -1,8 +1,7 @@
-function About({data}) {
-
+function About({ data }) {
   if (data) {
     var name = data.name;
-    console.log(name)
+    console.log(name);
     var profilepic = "images/" + data.image;
     var bio = data.bio;
     var street = data.address.street;
@@ -25,12 +24,12 @@ function About({data}) {
           />
         </div>
         <div className="space-y-5">
-          <h2 className="font-bold">About Me</h2>
+          <h2 className="font-semibold text-2xl">About Me</h2>
           <p className="">{bio}</p>
           <div className="row">
             <div className="columns contact-details">
-              <h2 className="font-bold mb-3">Contact Details</h2>
-              <p >
+              <h2 className="font-semibold text-2xl mb-3">Contact Details</h2>
+              <p>
                 <span>{name}</span>
                 <br />
                 <span>
@@ -38,16 +37,28 @@ function About({data}) {
                   <br />
                   {city} {state} {zip}
                 </span>
-                  <br />
+                <br />
                 <span>{phone}</span>
                 <br />
                 <span>{email}</span>
               </p>
             </div>
-            <div className="columns download">
+            <div className="mt-5">
               <p className="italic mt-2">
-                <a href={resumeDownload} className="button">
-                  <i className="fa fa-download"></i>Download Resume
+                <a href={resumeDownload} className="flex space-x-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                  <p>Download Resume</p>
                 </a>
               </p>
             </div>
@@ -56,6 +67,6 @@ function About({data}) {
       </div>
     </section>
   );
-};
+}
 
 export default About;

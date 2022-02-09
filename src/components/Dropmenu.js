@@ -5,7 +5,7 @@ function Dropmenu() {
   return (
     <div>
       <div className="relative-group cursor-pointer fixed top-5 right-5 hover:opacity-75">
-        <div className="absolute -inset-1.5 bg-gradient-to-r from-pink-500 to-purple-300 rounded-lg blur-xl opacity-75 hover:cursor-pointer group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+        <div className="absolute -inset-1.5 bg-gradient-to-r from-cyan-500 to-prussian-blue-50 rounded-lg blur-xl opacity-75 hover:cursor-pointer group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
 
         <Menu as="div" className="relative">
           {({ open }) => (

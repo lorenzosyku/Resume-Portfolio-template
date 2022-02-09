@@ -13,7 +13,7 @@ function Footer({ data }) {
   }
 
   return (
-    <footer>
+    <footer className="bg-white">
       <div className="grid grid-cols-1 place-content-center p-5 m-5">
         <div className="flex justify-center">
           <div className="flex-col space-y-3">

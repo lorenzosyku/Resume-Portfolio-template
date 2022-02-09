@@ -20,9 +20,9 @@ function ProgressBar(props) {
   }
 
   const labelStyles = {
-    padding: 5,
+    padding: 15,
     color: 'white',
-    fontWeight: 'bold'
+    fontWeight: 600,
   }
 
   return (

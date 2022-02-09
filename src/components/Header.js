@@ -1,21 +1,20 @@
 import TypeWriter from "react-typewriter";
 import Dropmenu from "./Dropmenu";
 import lottie from "lottie-web";
-import {useEffect, useRef} from "react";
+import { useEffect, useRef } from "react";
 
 function Header({ data }) {
-
   const container = useRef(null);
 
- useEffect(() => {
+  useEffect(() => {
     lottie.loadAnimation({
       container: container.current,
       renderer: "svg",
       loop: true,
       autoplay: true,
-      animationData: require('./coding.json')
-    })
-  }, [])
+      animationData: require("./coding.json"),
+    });
+  }, []);
 
   if (data) {
     var name = data.name;
@@ -31,11 +30,13 @@ function Header({ data }) {
         </li>
       );
     });
-
   }
   return (
-    <header className="p-5 space-y-5" id="home">
-      <Dropmenu />
+    <header className="p-5 space-y-5 bg-white" id="home">
+      <div className="md:hidden">
+        <Dropmenu />
+      </div>
+
       <nav className="hidden md:block" id="nav-wrap">
         <ul id="nav" className="flex justify-center space-x-5 text-white ">
           <li className="current">
@@ -105,7 +106,7 @@ function Header({ data }) {
               <ul className="flex space-x-2">{networks}</ul>
             </div>
           </div>
-          <div className="h-250 w-250" ref={container}></div>
+          <div className="" ref={container}></div>
         </div>
       </div>
     </header>

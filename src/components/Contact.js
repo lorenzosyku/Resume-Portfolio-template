@@ -28,7 +28,7 @@ function Contact({ data }) {
   };
 
   return (
-    <section className="max-w-3xl mx-auto p-5 m-5" id="contact">
+    <section className="max-w-3xl mx-auto p-5 m-5 bg-prussian-blue-50 text-gray-300" id="contact">
       <div className="mb-5">
         <div>
           <p className="font-bold">{contactMessage}</p>

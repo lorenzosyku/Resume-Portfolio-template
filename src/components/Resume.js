@@ -1,7 +1,6 @@
-import ProgressBar from './ProgressBar';
+import ProgressBar from "./ProgressBar";
 
 function Resume({ data }) {
-  
   if (data) {
     var skillmessage = data.skillmessage;
     var education = data.education.map(function (education) {
@@ -33,7 +32,7 @@ function Resume({ data }) {
         <div key={skills.name}>
           <li>
             <em>{skills.name}</em>
-            <ProgressBar bgcolor={"#6a1b9a"} completed={skills.level} />
+            <ProgressBar bgcolor={"#003459"} completed={skills.level} />
           </li>
         </div>
       );
@@ -41,41 +40,42 @@ function Resume({ data }) {
   }
 
   return (
-    <section className="block p-5 bg-cg-blue-50 space-y-5 my-10" id="resume">
+    <section
+      className="block p-5 bg-cg-blue-50 my-10 text-gray-200"
+      id="resume"
+    >
       <div className="max-w-6xl mx-auto">
         <div className="mt-5">
           <div className="">
-            <h1 className="font-bold">
+            <h1 className="font-semibold text-2xl">
               <span>Education</span>
             </h1>
           </div>
 
-          <div className="">
-            <div className="">
-              <div className="p-5">{education}</div>
-            </div>
+          <div className="mt-5">
+            <div className="p-5">{education}</div>
           </div>
         </div>
-        <div className="">
+        <div className="mt-5">
           <div className="">
-            <h1 className="font-bold">
+            <h1 className="font-semibold text-2xl">
               <span>Work</span>
             </h1>
           </div>
-
-          <div className="p-5">{work}</div>
+          <div className="mt-5">
+            <div className="p-5">{work}</div>
+          </div>
         </div>
 
-        <div className="">
+        <div className="mt-20 mb-20">
           <div className="">
-            <h1 className="font-bold">
+            <h1 className="flex justify-center font-semibold text-2xl max-w-4xl mx-auto">
               <span>Skills</span>
             </h1>
           </div>
 
           <div className="pt-5 italic">
-
-            <div className="">
+            <div className="max-w-4xl mx-auto">
               <ul className="space-y-5">{skills}</ul>
             </div>
           </div>

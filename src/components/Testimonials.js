@@ -1,15 +1,12 @@
-import { useState } from "react";
-
 function Testimonials({ data }) {
-  //const [selectedId, setSelectedId] = useState(null)
   if (data) {
     var testimonials = data.testimonials.map(function (testimonials) {
       return (
-        <div className="border shadow-sm shadow-cyan-500 rounded-lg m-5">
+        <div className="border shadow-lg shadow-cyan-500 rounded-lg m-5">
           <li key={testimonials.user} className="p-5 ">
-            <blockquote className="">
+            <blockquote className="space-y-5">
               <p className="italic">{testimonials.text}</p>
-              <cite className="font-bold mt-5">{testimonials.user}</cite>
+              <cite className="font-bold text-xl">{testimonials.user}</cite>
             </blockquote>
           </li>
         </div>
@@ -19,7 +16,7 @@ function Testimonials({ data }) {
 
   return (
     <section
-      className="p-5 m-5 bg-carolina-blue-50"
+      className="p-5 m-5 text-gray-300"
       id="testimonials"
     >
       <h1 className="font-bold">
