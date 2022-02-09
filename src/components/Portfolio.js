@@ -33,7 +33,7 @@ function Portfolio({ data }) {
       id="portfolio"
     >
       <div className="max-w-6xl mx-auto ">
-        <h1 className="font-bold my-5">My Previous Works</h1>
+        <h1 className="font-semibold text-2xl my-5">My Previous Works</h1>
         <div className="">
           <div className="">
             <div

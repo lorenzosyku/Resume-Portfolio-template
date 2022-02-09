@@ -38,7 +38,7 @@ function Header({ data }) {
       </div>
 
       <nav className="hidden md:block" id="nav-wrap">
-        <ul id="nav" className="flex justify-center space-x-5 text-white ">
+        <ul id="nav" className="flex justify-center space-x-5 text-white">
           <li className="current">
             <a
               className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600"
@@ -106,8 +106,8 @@ function Header({ data }) {
               <ul className="flex space-x-2">{networks}</ul>
             </div>
           </div>
-          <div className="" ref={container}></div>
         </div>
+        <div ref={container}></div>
       </div>
     </header>
   );

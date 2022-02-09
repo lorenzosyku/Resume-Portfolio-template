@@ -19,7 +19,7 @@ function Testimonials({ data }) {
       className="p-5 m-5 text-gray-300"
       id="testimonials"
     >
-      <h1 className="font-bold">
+      <h1 className="font-semibold text-2xl">
         <span>Client Testimonials</span>
       </h1>
       <div className="">
