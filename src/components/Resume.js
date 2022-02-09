@@ -67,7 +67,7 @@ function Resume({ data }) {
           </div>
         </div>
 
-        <div className="mt-20 mb-20">
+        {/*<div className="mt-20 mb-20">
           <div className="">
             <h1 className="flex justify-center font-semibold text-2xl max-w-4xl mx-auto">
               <span>Skills</span>
@@ -79,7 +79,7 @@ function Resume({ data }) {
               <ul className="space-y-5">{skills}</ul>
             </div>
           </div>
-        </div>
+        </div>*/}
       </div>
     </section>
   );
