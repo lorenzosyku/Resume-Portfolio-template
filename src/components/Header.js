@@ -37,7 +37,7 @@ function Header({ data }) {
         <Dropmenu />
       </div>
 
-      <nav className="hidden md:flex justify-center fixed p-5 h-20 w-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 z-10" id="nav-wrap">
+      <nav className="hidden md:flex justify-center fixed p-5 h-20 w-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 z-10 shadow-md" id="nav-wrap">
 
         
         <ul id="nav" className="fixed max-w-4xl mx-auto flex justify-center space-x-5 text-white ">
@@ -92,9 +92,9 @@ function Header({ data }) {
         </ul>
       </nav>
 
-      <div className="md:flex justify-center">
-        <div className="flex-col">
-          <div className="p-5 max-w-5xl mx-auto shadow-lg my-40">
+      <div className="md:grid grid-cols-2">
+        <div className="flex-col px-5">
+          <div className="p-5 max-w-5xl mx-auto shadow-lg mt-40 mb-20">
             <h1 className="text-3xl font-bold">
               <TypeWriter typing={0.5}>
                 {name ? `👋 I'm ${name}.` : null}
@@ -109,7 +109,7 @@ function Header({ data }) {
             </div>
           </div>
         </div>
-        {/*<div className="h-300" ref={container}></div>*/}
+        <div className="h-80 mb-20 mt-20" ref={container}></div>
       </div>
     </header>
   );
