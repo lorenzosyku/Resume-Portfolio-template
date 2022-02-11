@@ -26,7 +26,7 @@ function Portfolio({ data }) {
 
   return (
     <section
-      className="p-5 bg-cyan-700 text-gray-200"
+      className="p-5 bg-gradient-to-r from-cyan-800 to-slate-700 text-gray-200"
       id="portfolio"
     >
       <div className="max-w-6xl mx-auto ">
