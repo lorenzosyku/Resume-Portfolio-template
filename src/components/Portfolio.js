@@ -3,22 +3,19 @@ function Portfolio({ data }) {
     var projects = data.projects.map(function (projects) {
       var projectImage = "images/portfolio/" + projects.image;
       return (
-        <div key={projects.title} className="">
+        <div key={projects.title} className="flex justify-center">
           <div className="group">
             <a href={projects.url} title={projects.title}>
               <img
-                className="h-60 w-full object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out rounded-lg"
+                className="h-30 w-60 object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out rounded-lg"
                 alt={projects.title}
                 src={projectImage}
               />
-              <div className="py-3 pl-3">
-                <div className="portfolio-item-meta">
+              <div className="py-3">
+                <div className="border shadow-md rounded-lg text-center p-2 hover:scale-105 transition-transform duration-200 ease-out">
                   <h5>{projects.title}</h5>
                   <p>{projects.category}</p>
                 </div>
-              </div>
-              <div className="link-icon">
-                <i className="fa fa-link"></i>
               </div>
             </a>
           </div>
