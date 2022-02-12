@@ -1,5 +1,6 @@
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
+import { Link } from "react-scroll";
 
 function Dropmenu() {
   return (
@@ -42,8 +43,9 @@ function Dropmenu() {
                   <div className="py-1">
                     <Menu.Item>
                       {({ active }) => (
-                        <a
-                          href="#home"
+                        <Link 
+                          to="home"
+                          smooth = {true}
                           className={`flex items-center px-4 py-2 text-sm ${
                             active
                               ? "bg-indigo-500 text-white"
@@ -51,15 +53,16 @@ function Dropmenu() {
                           }`}
                         >
                           Home
-                        </a>
+                        </Link>
                       )}
                     </Menu.Item>
                   </div>
                   <div className="py-1">
                     <Menu.Item>
                       {({ active }) => (
-                        <a
-                          href="#about"
+                        <Link
+                          to="about"
+                          smooth={true}
                           className={`flex items-center px-4 py-2 text-sm ${
                             active
                               ? "bg-indigo-500 text-white"
@@ -67,15 +70,16 @@ function Dropmenu() {
                           }`}
                         >
                           About
-                        </a>
+                        </Link>
                       )}
                     </Menu.Item>
                   </div>
                   <div className="py-1">
                     <Menu.Item>
                       {({ active }) => (
-                        <a
-                          href="#resume"
+                        <Link
+                          to="resume" 
+                          smooth={true}
                           className={`flex items-center px-4 py-2 text-sm ${
                             active
                               ? "bg-indigo-500 text-white"
@@ -83,15 +87,16 @@ function Dropmenu() {
                           }`}
                         >
                           Resume
-                        </a>
+                        </Link>
                       )}
                     </Menu.Item>
                   </div>
                   <div className="py-1">
                     <Menu.Item>
                       {({ active }) => (
-                        <a
-                          href="#portfolio"
+                        <Link
+                          to="portfolio"
+                          smooth={true}
                           className={`flex items-center px-4 py-2 text-sm ${
                             active
                               ? "bg-indigo-500 text-white"
@@ -99,15 +104,16 @@ function Dropmenu() {
                           }`}
                         >
                           Works
-                        </a>
+                        </Link>
                       )}
                     </Menu.Item>
                   </div>
                   <div className="py-1">
                     <Menu.Item>
                       {({ active }) => (
-                        <a
-                          href="#testimonials"
+                        <Link 
+                          to="testimonials"
+                          smooth={true}
                           className={`flex items-center px-4 py-2 text-sm ${
                             active
                               ? "bg-indigo-500 text-white"
@@ -115,15 +121,16 @@ function Dropmenu() {
                           }`}
                         >
                           Testimonials
-                        </a>
+                        </Link>
                       )}
                     </Menu.Item>
                   </div>
                   <div className="py-1">
                     <Menu.Item>
                       {({ active }) => (
-                        <a
-                          href="#contact"
+                        <Link
+                          to="contact"
+                          smooth={true}
                           className={`flex items-center px-4 py-2 text-sm ${
                             active
                               ? "bg-indigo-500 text-white"
@@ -131,7 +138,7 @@ function Dropmenu() {
                           }`}
                         >
                           Contact
-                        </a>
+                        </Link>
                       )}
                     </Menu.Item>
                   </div>
