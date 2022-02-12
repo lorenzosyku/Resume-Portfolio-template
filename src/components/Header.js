@@ -2,6 +2,7 @@ import TypeWriter from "react-typewriter";
 import Dropmenu from "./Dropmenu";
 import lottie from "lottie-web";
 import { useEffect, useRef } from "react";
+import { Link } from "react-scroll";
 
 function Header({ data }) {
   const container = useRef(null);
@@ -37,57 +38,67 @@ function Header({ data }) {
         <Dropmenu />
       </div>
 
-      <nav className="hidden md:flex justify-center fixed p-5 h-20 w-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 z-10 shadow-md" id="nav-wrap">
-
-        
-        <ul id="nav" className="fixed max-w-4xl mx-auto flex justify-center space-x-5 text-white ">
+      <nav
+        className="hidden md:flex justify-center fixed p-5 h-20 w-full bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 z-10 shadow-md"
+        id="nav-wrap"
+      >
+        <ul
+          id="nav"
+          className="fixed max-w-4xl mx-auto flex justify-center space-x-5 text-white "
+        >
           <li className="">
-            <a
+            <Link
+              to="home"
+              smooth={true}
               className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600"
-              href="#home"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
+              to="about"
+              smooth={true}
               className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600"
-              href="#about"
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
+              to="resume"
+              smooth={true}
               className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600"
-              href="#resume"
             >
               Resume
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
+              to="portfolio"
+              smooth={true}
               className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600"
-              href="#portfolio"
             >
               Works
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
+              to="testimonials"
+              smooth={true}
               className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600"
-              href="#testimonials"
             >
               Testimonials
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
+              to="contact"
+              smooth={true}
               className="cursor-pointer shadow-lg p-2 rounded-lg bg-cyan-600"
-              href="#contact"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
