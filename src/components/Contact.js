@@ -115,11 +115,7 @@ function Contact({ data }) {
             </fieldset>
           </form>
 
-          <div id="message-warning"> Error boy</div>
-          <div id="message-success">
-            <i className="fa fa-check"></i>Your message was sent, thank you!
-            <br />
-          </div>
+          
         </div>
 
         <div className="grid grid-cols-1 place-content-center">
