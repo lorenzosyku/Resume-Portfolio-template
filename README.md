@@ -11,5 +11,7 @@ There is also a contact form in case anyone wants to reach you!
   - Server Side Rendering
 - [TailwindCSS](https://tailwindcss.com/) - Rapidly build modern websites without ever leaving your HTML
 - [Javascript](https://www.javascript.com/) - JavaScript is a scripting or programming language that allows you to implement complex features on web pages.
+- [Lottie](https://lottiefiles.com/) - Lightweight, scalable animations for your
+website and apps. LottieFiles provides all the tools that you need to create, edit, test and display Lottie animations.
 
 ---
